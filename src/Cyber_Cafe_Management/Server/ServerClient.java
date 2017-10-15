@@ -9,7 +9,8 @@ public class ServerClient {
     public int port;
     public int ID = 0;
     public int attempt = 0;
-    public int min = 0, sec = 0;
+    public int min = 0;
+	public sec = 0;
 
     public ServerClient() {
 
