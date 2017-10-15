@@ -10,7 +10,7 @@ public class ServerClient {
     public int ID = 0;
     public int attempt = 0;
     public int min = 0;
-	public sec = 0;
+    public int sec = 0;
 
     public ServerClient() {
 
