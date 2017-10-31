@@ -15,7 +15,6 @@ public class ServerClient {
     public ServerClient() {
 
     }
-
     public ServerClient(String name, InetAddress address, int port, final int ID) {
         this.name = name;
         this.address = address;

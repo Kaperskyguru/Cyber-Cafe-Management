@@ -1,6 +1,5 @@
 package Cyber_Cafe_Management;
 
-import Cyber_Cafe_Management.Server.Dashboard;
 import java.awt.Image;
 import java.sql.DriverManager;
 import java.sql.*;
@@ -855,6 +854,7 @@ public class DatabaseClass {
         return UsedUpTickets;
     }
 
+    
     // Store the messages from clients
     public void storeMessage(String message1, int UniqueID1, String sender, String status) {
         try {
